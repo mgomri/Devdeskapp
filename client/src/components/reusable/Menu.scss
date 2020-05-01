@@ -1,0 +1,64 @@
+.side-nav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 5rem;
+
+    .link {
+        
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        
+      }
+
+    .link:hover{
+        color:#f1f1f1;
+    }
+
+    .link-div {
+        width:80%;
+        margin:auto;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height:20vh;   
+    }
+    
+    
+    .closebtn {
+        position: absolute;
+        top: 0;
+        right: 1.5rem;
+        color:white;
+        cursor:pointer;
+        font-size: 2rem;
+    }
+      
+    
+  }
+
+  .open-btn{
+    position: absolute;
+    top: 2rem;
+    left: 3rem;
+    cursor:pointer;
+    font-size: 1.6rem;
+    color:white;
+    
+  }
+
+  .landing{
+    height:100vh;
+  }
+  
+  
+  
+  
+  
